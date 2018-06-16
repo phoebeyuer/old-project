@@ -1,13 +1,21 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- <img src="./assets/logo.png"> -->
+    <!-- <my-header></my-header> -->
     <router-view/>
+<!--     <router-view name="title1"/>
+<router-view name="title2"/> -->
   </div>
 </template>
 
 <script>
-export default {
-  name: 'App'
+  // import MyHeader from '@/components/MyHeader'
+  export default {
+/*    name:'App',
+    components: {
+      MyHeader
+    }*/
+
 }
 </script>
 
@@ -17,7 +25,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: white;
+  font-weight: bold;
+  /*margin-top: 60px;*/
+  
 }
 </style>
